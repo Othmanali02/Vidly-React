@@ -1,0 +1,82 @@
+#root {
+	background-color: #212121;
+}
+
+.navbar {
+	margin-top: -20px;
+	position: absolute;
+	background-color: black;
+}
+
+.nav-item {
+	color: white;
+}
+
+.links {
+	color: white;
+	padding-right: 15px;
+}
+
+.links:hover {
+	text-decoration: none;
+	color: orangered;
+}
+
+.navbar-brand h6 {
+	color: red;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.container {
+	background-color: #212121;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.list-group {
+	margin-top: 40px;
+	background-color: #212121;
+	color: black;
+}
+
+#newMovie {
+	margin-bottom: 10px;
+	background-color: orangered;
+	border: orangered;
+	font-weight: 600;
+	color: black;
+}
+
+.App-header {
+	background-color: #222;
+	height: 150px;
+	padding: 20px;
+	color: white;
+}
+
+.MovieLink {
+	color: white;
+}
+.MovieLink:hover {
+	color: orangered;
+	text-decoration: none;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
